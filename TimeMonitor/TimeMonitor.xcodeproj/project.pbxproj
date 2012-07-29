@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DF4FE4F15977E3000B93BBB /* timemonitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4FE4A15977E3000B93BBB /* timemonitor.c */; };
+		7DF4FE5015977E3000B93BBB /* timemonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF4FE4B15977E3000B93BBB /* timemonitor.h */; };
+		7DF4FE5F15977EA200B93BBB /* selection_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4FE4815977E3000B93BBB /* selection_sort.c */; };
+		7DF4FE6015977EA600B93BBB /* libTimeMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4FE3E15977E1100B93BBB /* libTimeMonitor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF4FE611597819900B93BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF4FE3515977E1100B93BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF4FE3D15977E1100B93BBB;
+			remoteInfo = FastProfiler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DF4FE5315977E9300B93BBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7DF4FE3E15977E1100B93BBB /* libTimeMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTimeMonitor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF4FE4815977E3000B93BBB /* selection_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selection_sort.c; sourceTree = "<group>"; };
+		7DF4FE4A15977E3000B93BBB /* timemonitor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timemonitor.c; sourceTree = "<group>"; };
+		7DF4FE4B15977E3000B93BBB /* timemonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timemonitor.h; sourceTree = "<group>"; };
+		7DF4FE5515977E9300B93BBB /* SelectionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelectionSort; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF4FE3B15977E1100B93BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF4FE5215977E9300B93BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF4FE6015977EA600B93BBB /* libTimeMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF4FE3315977E1100B93BBB = {
+			isa = PBXGroup;
+			children = (
+				7DF4FE4515977E3000B93BBB /* samples */,
+				7DF4FE4915977E3000B93BBB /* src */,
+				7DF4FE3F15977E1100B93BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF4FE3F15977E1100B93BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4FE3E15977E1100B93BBB /* libTimeMonitor.a */,
+				7DF4FE5515977E9300B93BBB /* SelectionSort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF4FE4515977E3000B93BBB /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4FE4815977E3000B93BBB /* selection_sort.c */,
+			);
+			path = samples;
+			sourceTree = "<group>";
+		};
+		7DF4FE4915977E3000B93BBB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4FE4A15977E3000B93BBB /* timemonitor.c */,
+				7DF4FE4B15977E3000B93BBB /* timemonitor.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7DF4FE3C15977E1100B93BBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF4FE5015977E3000B93BBB /* timemonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7DF4FE3D15977E1100B93BBB /* TimeMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF4FE4215977E1100B93BBB /* Build configuration list for PBXNativeTarget "TimeMonitor" */;
+			buildPhases = (
+				7DF4FE3A15977E1100B93BBB /* Sources */,
+				7DF4FE3B15977E1100B93BBB /* Frameworks */,
+				7DF4FE3C15977E1100B93BBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeMonitor;
+			productName = FastProfiler;
+			productReference = 7DF4FE3E15977E1100B93BBB /* libTimeMonitor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7DF4FE5415977E9300B93BBB /* SelectionSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF4FE5C15977E9300B93BBB /* Build configuration list for PBXNativeTarget "SelectionSort" */;
+			buildPhases = (
+				7DF4FE5115977E9300B93BBB /* Sources */,
+				7DF4FE5215977E9300B93BBB /* Frameworks */,
+				7DF4FE5315977E9300B93BBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF4FE621597819900B93BBB /* PBXTargetDependency */,
+			);
+			name = SelectionSort;
+			productName = SelectionSort;
+			productReference = 7DF4FE5515977E9300B93BBB /* SelectionSort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF4FE3515977E1100B93BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7DF4FE3815977E1100B93BBB /* Build configuration list for PBXProject "TimeMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DF4FE3315977E1100B93BBB;
+			productRefGroup = 7DF4FE3F15977E1100B93BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF4FE3D15977E1100B93BBB /* TimeMonitor */,
+				7DF4FE5415977E9300B93BBB /* SelectionSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF4FE3A15977E1100B93BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF4FE4F15977E3000B93BBB /* timemonitor.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF4FE5115977E9300B93BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF4FE5F15977EA200B93BBB /* selection_sort.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF4FE621597819900B93BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF4FE3D15977E1100B93BBB /* TimeMonitor */;
+			targetProxy = 7DF4FE611597819900B93BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DF4FE4015977E1100B93BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DF4FE4115977E1100B93BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DF4FE4315977E1100B93BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = TimeMonitor;
+			};
+			name = Debug;
+		};
+		7DF4FE4415977E1100B93BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = TimeMonitor;
+			};
+			name = Release;
+		};
+		7DF4FE5D15977E9300B93BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DF4FE5E15977E9300B93BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF4FE3815977E1100B93BBB /* Build configuration list for PBXProject "TimeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4FE4015977E1100B93BBB /* Debug */,
+				7DF4FE4115977E1100B93BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF4FE4215977E1100B93BBB /* Build configuration list for PBXNativeTarget "TimeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4FE4315977E1100B93BBB /* Debug */,
+				7DF4FE4415977E1100B93BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF4FE5C15977E9300B93BBB /* Build configuration list for PBXNativeTarget "SelectionSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4FE5D15977E9300B93BBB /* Debug */,
+				7DF4FE5E15977E9300B93BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF4FE3515977E1100B93BBB /* Project object */;
+}

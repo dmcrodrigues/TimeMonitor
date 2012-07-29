@@ -10,3 +10,8 @@
 *.lai
 *.la
 *.a
+
+# Xcode
+TimeMonitor/TimeMonitor.xcodeproj/pbxuser
+TimeMonitor/TimeMonitor.xcodeproj/project.xcworkspace*
+TimeMonitor/TimeMonitor.xcodeproj/xcuserdata*
