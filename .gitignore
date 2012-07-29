@@ -13,5 +13,5 @@
 
 # Xcode
 TimeMonitor/TimeMonitor.xcodeproj/pbxuser
-TimeMonitor/TimeMonitor.xcodeproj/project.xcworkspace*
-TimeMonitor/TimeMonitor.xcodeproj/xcuserdata*
+TimeMonitor/TimeMonitor.xcodeproj/project.xcworkspace
+TimeMonitor/TimeMonitor.xcodeproj/xcuserdata
